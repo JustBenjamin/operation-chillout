@@ -1,0 +1,189 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+
+nav {
+    padding: 20px 0;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
+nav > img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
+.hero {
+    margin-top: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("homeless-hero-photo.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+   
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #d81f01;
+    max-width: 70%;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+
+}
+
+.subhead {
+    text-align: center;
+    padding: 1em 1.5em;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.product > img {
+    width: 90%;
+}
+
+.product > a {
+    text-decoration: none;
+}
+
+
+
+.cart-btn {
+    background-color: #d81f01;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+}
+
+.payment {
+ width: 80%;
+ text-align: center;
+ margin: 20px auto;
+}
+
+
+
+.payment > img {
+    width: 300px;
+    margin: auto;
+    
+}
+
+.payment > h3 {
+   color: #fff;
+   background-color: #d81f01;
+   padding: 10px 15px;
+   border-radius: 10px;
+   max-width: 200px;
+   margin: auto;
+}
+
+.payment > h3 a {
+    text-decoration: none;
+    color: #fff;
+ }
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 1.5em 0;
+    margin-top: 1.5em;
+}
+
+
+
+    
+@media only screen and (min-width: 900px) {
+   button {
+    font-size: large;
+   }
+   
+   
+    .section {
+        flex-direction: row;
+    }
+
+    .hero {
+        margin-top: 7%;
+    }
+
+    .payment {
+        width: 30%;
+        margin: 40px auto;
+    }
+
+    .payment > img {
+        max-width: 300px;
+        margin: auto;
+    }
+
+     p {
+        line-height: 1.5em;
+    }
+
+
+
+    /* .button {
+        width: 30%;
+    } */
+
+   
+    
+
+
+}
